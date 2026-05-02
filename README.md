@@ -390,7 +390,13 @@ TTGAAGAGTTTGATCATGGCTCAGATTGAACGCTGGCGGCAGGCCTAACACATGCAAGTCGAGCGGCAGCGGGAAGTAGC
 
 <img width="3024" height="1423" alt="image" src="https://github.com/user-attachments/assets/2cf72e76-5aac-4fef-ae8c-ef7de9aa29f2" />
 
+### Revisar los alineamientos y establecer la taxonomia de la cepa en base al 16S
+
 <img width="1941" height="1280" alt="image" src="https://github.com/user-attachments/assets/23e0e54e-9c02-4952-b643-8a6c06b02f21" />
+
+### Buscar genomas de referencia en https://www.ncbi.nlm.nih.gov/datasets/genome/
+
+<img width="2447" height="1401" alt="image" src="https://github.com/user-attachments/assets/a4bb8921-2c75-4d4d-80d1-f319f7c024d9" />
 
 ## 6. Validación de los genomas ensamblados
 
@@ -522,4 +528,35 @@ tail -n 10 m01_checkm_enterobacter.txt
 └── [223M]  b12_yacrd.fastq.gz
 ```
 
+```bash
+file                 format  type  num_seqs      sum_len  min_len  avg_len  max_len     Q1     Q2     Q3  sum_gap    N50  N50_num  Q20(%)  Q30(%)  AvgQual  GC(%)  sum_n
+b09_rename.fastq.gz  FASTQ   DNA     43,382  265,963,262    1,000  6,130.7   63,862  2,556  4,452  8,002        0  8,672    3,881   93.79   87.49    21.38  51.89      0
+b10_rename.fastq.gz  FASTQ   DNA     48,826  249,960,072    1,000  5,119.4   62,371  2,127  3,595  6,429        0  7,176    4,044   94.02   86.08    21.56  35.21      0
+b11_rename.fastq.gz  FASTQ   DNA     18,034  108,401,386    1,002  6,010.9   83,812  2,327  4,058  7,902        0  9,124    1,705   94.18   86.27    21.83  37.84      0
+b12_rename.fastq.gz  FASTQ   DNA     40,008  211,655,500    1,000  5,290.3   48,632  2,149  3,631  6,817        0  7,723    3,469   94.13    86.2     21.8  38.09      0
+```
+
+| Columna | Descripción |
+| :--- | :--- |
+| **file** | Nombre del archivo analizado. |
+| **format** | Formato de la secuencia (FASTQ/FASTA). |
+| **type** | Tipo de molécula (DNA/RNA). |
+| **num_seqs** | Cantidad total de lecturas (reads). |
+| **sum_len** | Total de bases secuenciadas (Yield). |
+| **min_len** | Longitud de la lectura más corta. |
+| **avg_len** | Longitud promedio de las lecturas. |
+| **max_len** | Longitud de la lectura más larga. |
+| **Q1 / Q2 / Q3** | Cuartiles de longitud (25%, 50% [Mediana], 75%). |
+| **sum_gap** | Cantidad de bases desaparecidas (Gaps/N's). |
+| **N50** | Longitud mínima del 50% de las bases más largas. |
+| **N50_num** | Número de lecturas necesarias para alcanzar el N50 (L50). |
+| **Q20(%)** | Porcentaje de bases con precisión $\ge$ 99%. |
+| **Q30(%)** | Porcentaje de bases con precisión $\ge$ 99.9%. |
+| **AvgQual** | Calidad Phred promedio de la corrida. |
+| **GC(%)** | Contenido de Guanina-Citosina (indicador taxonómico). |
+| **sum_n** | Total de bases ambiguas (N). |
+
+
+> **Bitácora bioinformática:** 
+> - `Sorpresa!!!!`
 
