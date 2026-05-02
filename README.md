@@ -580,6 +580,13 @@ b12_rename.fastq.gz  FASTQ   DNA     40,008  211,655,500    1,000  5,290.3   48,
 | **GC(%)** | Contenido de Guanina-Citosina (indicador taxonómico). |
 | **sum_n** | Total de bases ambiguas (N). |
 
+```bash
+cd ~/genomics/assembly
+
+conda activate canu
+
+canu -p b00 -d canu useGrid=false genomeSize=5m -nanopore ~/genomics/trimming/nanopore/b00_rename.fastq.gz
+```
 
 > **Bitácora bioinformática:** 
 > - `Sorpresa!!!!`
