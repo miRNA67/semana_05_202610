@@ -10,9 +10,10 @@ Al finalizar la sesión, el estudiante utiliza herramientas bioinformaticas para
 2. Ensamblaje de genomas de datos de secuenciación Illumina
 3. Ensamblaje de genomas de datos de secuenciación Nanopore
 4. Obtención de las metricas de los genomas ensamblados
-5. Clasificación taxonómica
+5. Clasificación taxonómica en base a la secuencia 16S
 6. Validación de los genomas ensamblados
-7.	Ensamblaje del genoma de los datos de secuenciación Nanopore generados en el curso
+7. Identificación de especie mediante ANI (Average Nucleotide Identity)
+8.	Ensamblaje del genoma de los datos de secuenciación Nanopore generados en el curso
 
 ## Programas requeridos:
 
@@ -325,7 +326,7 @@ L90                         1          1
 > - `L50`: El número de contigs cuya longitud es mayor o igual al N50. Un L50 más bajo es mejor, ya que significa que se necesita un número menor de contigs para alcanzar el 50% del tamaño del ensamblaje.
 > - `N's per 100 kbp`: La cantidad de bases 'N' (que representan bases desconocidas o ambiguas) en el ensamblaje, normalizada por cada 100,000 pares de bases. Un valor más bajo es mejor, ya que indica una mayor resolución de la secuencia.
 
-## 5. Clasificación taxonómica
+## 5. Clasificación taxonómica en base a la secuencia 16S
 
 ### Crear el directorio taxonomy
 
@@ -459,7 +460,20 @@ tail -n 10 m01_checkm_enterobacter.txt
 > - `Contamination`: Porcentaje de marcadores duplicados o inesperados, lo que sugiere posible contaminación. Un valor bajo es mejor.
 > - `Strain heterogeneity`: Indica la posible presencia de múltiples cepas en el ensamblaje. Un valor alto sugiere heterogeneidad.
 
-## 7.	Ensamblaje del genoma de los datos de secuenciación Nanopore generados en el curso
+## 7.	Identificación de especie mediante ANI (Average Nucleotide Identity)
+
+### Exportar el mejor ensamblaje obtenido
+
+### Ir a la herramienta ANI calculator de GTDB (https://gtdb.ecogenomic.org/tools/skani), cargar el archivo FASTA y seleccionar en GTDB TAXON el genero obtenido con la secuencia de 16S
+
+<img width="2540" height="1488" alt="image" src="https://github.com/user-attachments/assets/2ada3415-bc8b-4d17-99da-598240129ac9" />
+
+### Analizar los resultados obtenidos
+
+<img width="2540" height="1488" alt="image" src="https://github.com/user-attachments/assets/20d473d7-0a40-47b2-9ee0-09b00302b67a" />
+
+
+## 8.	Ensamblaje del genoma de los datos de secuenciación Nanopore generados en el curso
 
 > **Localización de los archivos:**
 
