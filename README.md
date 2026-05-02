@@ -589,5 +589,14 @@ canu -p b00 -d canu useGrid=false genomeSize=5m -nanopore ~/genomics/trimming/na
 ```
 
 > **Bitácora bioinformática:** 
-> - `Sorpresa!!!!`
-
+> - `Caratula (usar el de Principios de Programación Bioinformática)`
+> - `Titulo`
+> - `Objetivo de la practica`
+> - `Metodologia: Flujograma de los analisis realizados (tanto para Illumina y Nanopore)`
+> - `Metodologia: Estructura de las carpetas`
+> - `Resultados: Estadisticas de ambos ensamblajes`
+> - `Resultados: Evidencia de circularización`
+> - `Resultados: Clasificación taxonómica a nivel de género`
+> - `Resultados: Estadísticas de integridad y contaminación`
+> - `Resultados: Clasificación taxonómica a nivel de especie`
+> - `Discusión: Que importancia tiene la clasificación taxonómica en la evaluación de un ensamblaje`
