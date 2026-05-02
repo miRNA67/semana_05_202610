@@ -53,9 +53,12 @@ Unicycler v0.5.1 https://github.com/rrwick/Unicycler
      
 ### Herramientas bioinformáticas en línea:
 
-16S-based ID https://www.ezbiocloud.net/identify
-   - **Descripción:** Esta es una herramienta en línea proporcionada por EzBioCloud que permite la identificación taxonómica de bacterias y arqueas basada en la secuencia del gen 16S rRNA, un marcador molecular comúnmente utilizado en estudios de diversidad microbiana.
+GTDB https://gtdb.ecogenomic.org/
+   - **Descripción:** Es un recurso que proporciona una clasificación taxonómica de procariotas (bacterias y arqueas) basada exclusivamente en la filogenia de genomas completos. Su objetivo es resolver las inconsistencias de la taxonomía tradicional (basada en el NCBI o LPSN) mediante el uso de un marco filogenómico estandarizado.
 
+NCBI Datasets Genome https://www.ncbi.nlm.nih.gov/datasets/genome/
+   - **Descripción:** Es la interfaz moderna y optimizada del National Center for Biotechnology Information para buscar, visualizar y descargar datos genómicos.
+   - 
 blastn https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&BLAST_SPEC=GeoBlast&PAGE_TYPE=BlastSearch
    - **Descripción:** BLASTn (Basic Local Alignment Search Tool - nucleotide) es una herramienta en línea del NCBI (National Center for Biotechnology Information) que permite buscar secuencias de nucleótidos (ADN o ARN) contra bases de datos de secuencias de nucleótidos. Encuentra regiones de similitud local entre tu secuencia de consulta y las secuencias en la base de datos, lo que te permite identificar secuencias relacionadas o similares. 
 
