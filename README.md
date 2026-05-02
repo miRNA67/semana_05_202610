@@ -10,8 +10,8 @@ Al finalizar la sesión, el estudiante utiliza herramientas bioinformaticas para
 2. Ensamblaje de genomas de datos de secuenciación Illumina
 3. Ensamblaje de genomas de datos de secuenciación Nanopore
 4. Obtención de las metricas de los genomas ensamblados
-5. Validación de los genomas ensamblados
-6. Clasificación taxonómica
+5. Clasificación taxonómica
+6. Validación de los genomas ensamblados
 7.	Ensamblaje del genoma de los datos de secuenciación Nanopore generados en el curso
 
 ## Programas requeridos:
@@ -185,6 +185,8 @@ mv m01_unicycler_nanopore/assembly.gfa m01_unicycler.gfa
 
 ### Exportar y visualizar el archivo .gfa en el programa bandage
 
+<img width="3014" height="1737" alt="image" src="https://github.com/user-attachments/assets/98a2151b-9785-4613-a1c7-1daee187b70e" />
+
 ### Ensamblaje de novo del genoma con flye
 
 ```bash
@@ -258,6 +260,8 @@ mv m01_flye_nanopore/assembly_graph.gfa m01_flye.gfa
 ```
 
 ### Exportar y visualizar el archivo .gfa en el programa bandage
+
+<img width="3021" height="1783" alt="image" src="https://github.com/user-attachments/assets/fa0f690d-5f27-478f-bc5e-1fcdbd19466d" />
 
 ## 4. Obtención de las metricas de los genomas ensamblados
 
